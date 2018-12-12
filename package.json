@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "nodemon --ignore '*.json' file-parser.js \"Homo sapiens mitochondrion sequence.gb\""
+  },
   "dependencies": {
     "fs-extra": "^7.0.1"
   }
